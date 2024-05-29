@@ -4,16 +4,16 @@
 ## AnyKernel setup
 # begin properties
 properties() { '
-kernel.string=DiscussionVerse by picasso
+kernel.string=Kernel by DevBX
 do.devicecheck=1
 do.modules=0
 do.systemless=1
 do.cleanup=1
 do.cleanuponabort=0
-device.name1=RMX2185
-device.name2=rmx2185
-device.name3=RMX2189
-device.name4=RMX2180
+device.name1=earth
+device.name2=aether
+device.name3=Earth
+device.name4=aether
 device.name5=
 supported.versions=
 supported.patchlevels=
