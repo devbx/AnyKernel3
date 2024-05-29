@@ -1,12 +1,8 @@
-NAME ?= DiscussionVerse
+DATE := $(shell date "+%Y%m%d")
 
-ETC := KSU-LTO-CLANG18
+CODE := Earth-AK3
 
-DATE := $(shell date "+%Y%m%d-%H%M")
-
-CODE := UI2
-
-ZIP := $(NAME)-$(CODE)-$(ETC)-$(DATE).zip
+ZIP := $(CODE)-$(DATE).zip
 
 EXCLUDE := Makefile *.git* *.jar* *placeholder* *.md*
 
